@@ -1,6 +1,8 @@
+import Product from "./pages/product"
 const App = () => {
   return (
-    <div><h1>Ali</h1>
+    <div>
+<Product/>
     </div>)
 
 }
