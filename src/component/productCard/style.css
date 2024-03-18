@@ -1,0 +1,33 @@
+.product-card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+    background-color: #fff;
+    transition: transform 0.3s ease-in-out;
+    width: 200px;
+    height: auto;
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+}
+
+.product-image {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.product-card h3 {
+    margin: 10px 0;
+    font-size: 1rem;
+}
+
+.product-card p {
+    margin: 5px 0;
+    font-size: 0.9rem;
+}
+
+.product-card p:first-child {
+    font-weight: bold;
+}

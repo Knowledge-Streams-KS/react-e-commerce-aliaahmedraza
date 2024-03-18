@@ -1,0 +1,68 @@
+.signup-form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.signup-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.signup-form input[type="text"],
+.signup-form input[type="password"],
+.signup-form select,
+.signup-form button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.signup-form button {
+    background-color: #007bff;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.signup-form button:hover {
+    background-color: #0056b3;
+}
+
+.signup-form .text-danger {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.signup-form .checkbox-label {
+    display: block;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.signup-form .gender-select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    appearance: none;
+    background: transparent;
+}
+
+.signup-form .gender-select option {
+    color: #000;
+}
+
+.signup-form .gender-select:focus {
+    outline: none;
+}
